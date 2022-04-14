@@ -1,0 +1,29 @@
+{
+  "items":
+  [
+    {
+      "Name": "Poke stick",
+      "Type": "Sword",
+      "Damage": "10",
+      "Durability": "5000"
+    },
+    {
+      "Name": "Short poke stick shooter",
+      "Type": "Bow",
+      "Damage": "5",
+      "Durability": "2500"
+    },
+    {
+      "Name": "Short poke stick fast shooter",
+      "Type": "Bow",
+      "Damage": "100",
+      "Durability": "2500"
+    },
+    {
+      "Name": "Long poke stick",
+      "Type": "Spear",
+      "Damage": "7.5",
+      "Durability": "5000"
+    }
+  ]
+}
