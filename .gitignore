@@ -60,3 +60,6 @@ crashlytics-build.properties
 
 # Saves
 Save*.*
+
+# library
+Library/
