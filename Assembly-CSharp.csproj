@@ -56,10 +56,13 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\EnemyDMG.cs" />
     <Compile Include="Assets\Scripts\ButtonScripts.cs" />
+    <Compile Include="Assets\Scripts\Bosses\Fire Boss\FireBoss2.cs" />
     <Compile Include="Assets\Scripts\navmeshEnemy.cs" />
     <Compile Include="Assets\Scripts\Shift.cs" />
     <Compile Include="Assets\Scripts\Damage.cs" />
+    <Compile Include="Assets\Scripts\WorldItem.cs" />
     <Compile Include="Assets\Scripts\Swing.cs" />
     <Compile Include="Assets\Scripts\Bosses\Air Boss\AirBoss.cs" />
     <Compile Include="Assets\Scripts\InventoryItemData.cs" />
@@ -71,25 +74,21 @@
     <Compile Include="Assets\Scripts\PlayerLook.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\timer.cs" />
+    <Compile Include="Assets\Scripts\Bosses\Fire Boss\FireBoss3.cs" />
+    <Compile Include="Assets\Scripts\ConsoleToGUI.cs" />
     <Compile Include="Assets\Scripts\jumpBar.cs" />
     <Compile Include="Assets\Scripts\JumpBarNoMany.cs" />
+    <Compile Include="Assets\Scripts\Bosses\Phase.cs" />
     <Compile Include="Assets\Scripts\Bap.cs" />
+    <Compile Include="Assets\Scripts\Bosses\Fire Boss\FireBoss1.cs" />
     <Compile Include="Assets\Scripts\manaBar.cs" />
     <Compile Include="Assets\Scripts\spawn.cs" />
     <Compile Include="Assets\Scripts\loadmods.cs" />
     <Compile Include="Assets\Scripts\healthBar.cs" />
+    <Compile Include="Assets\Scripts\Bosses\Fire Boss\FireBoss.cs" />
+    <Compile Include="Assets\Scripts\Bosses\Boss.cs" />
     <Compile Include="Assets\Scripts\navmeshEnemyFireCast.cs" />
     <Compile Include="Assets\Scripts\Shop.cs" />
-    <Compile Include="Assets\Scripts\ConsoleToGUI.cs" />
-    <Compile Include="Assets\Scripts\WorldItem.cs" />
-    <Compile Include="Assets\Scripts\EnemyDMG.cs" />
-    <Compile Include="Assets\Scripts\Bosses\Fire Boss\navmeshEnemyBoss.cs" />
-    <Compile Include="Assets\Scripts\Bosses\Fire Boss\FireBoss1.cs" />
-    <Compile Include="Assets\Scripts\Bosses\Fire Boss\FireBoss2.cs" />
-    <Compile Include="Assets\Scripts\Bosses\Fire Boss\FireBoss3.cs" />
-    <Compile Include="Assets\Scripts\Bosses\Boss.cs" />
-    <Compile Include="Assets\Scripts\Bosses\Phase.cs" />
-    <Compile Include="Assets\Scripts\Bosses\PhaseScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

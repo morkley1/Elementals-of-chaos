@@ -2,16 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireBoss1 : FireBoss
+public class FireBoss1 : Phase
 {
-    // Start is called before the first frame update
-    void Start()
+    public FireBoss1(float health)
     {
-        
+        phaseHealth = health;
+    }
+
+    // Start is called before the first frame update
+    public override void Init()
+    {
+        Debug.Log(this);
     }
 
     // Update is called once per frame
-    void Update()
+    public override void Update()
     {
         Agent.SetDestination(player.position);
     }

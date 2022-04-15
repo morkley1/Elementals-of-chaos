@@ -174,8 +174,9 @@ public class playerWalk : MonoBehaviour
         if (healthTEMP <= 0)
         {
             healthTEMP = maxHealthTEMP;
-            Scene scene = SceneManager.GetActiveScene(); 
-            SceneManager.LoadScene(scene.name);
+            Scene scene = SceneManager.GetActiveScene();
+            Cursor.lockState = CursorLockMode.None;
+            SceneManager.LoadScene("Menu");
             dead = true;
         }
         MainEdit();

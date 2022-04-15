@@ -20,7 +20,7 @@ MonoBehaviour:
   RDMGOverride: 0
   healing: 0
   craftingRecipe:
-  - {fileID: 11400000, guid: 96e651253f1702d4aaf80bd8db9b0417, type: 2}
+  - {fileID: 11400000, guid: f15f66042b04e3945b38a91f4ca90950, type: 2}
   - {fileID: 11400000, guid: 9278e3c009b2a2e4288dce315c3525a2, type: 2}
   - {fileID: 11400000, guid: 9278e3c009b2a2e4288dce315c3525a2, type: 2}
   - {fileID: 11400000, guid: 9278e3c009b2a2e4288dce315c3525a2, type: 2}

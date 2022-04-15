@@ -11,7 +11,7 @@ public class Inventory : MonoBehaviour
     [SerializeField] Transform thingRenderer;
     [SerializeField] GameObject image;
     [SerializeField] List<InventoryItemData> crafts;
-    [SerializeField] InventoryItemData craftss;
+    public List<InventoryItemData> potions = new List<InventoryItemData>{};
 
     // Update is called once per frame
     void Update()
@@ -23,7 +23,17 @@ public class Inventory : MonoBehaviour
             {
                 craft.Craft();
             }
-            craftss.Craft();
+        }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            foreach (InventoryItemData potion in potions)
+            {
+                if (inventoryItems.Contains(potion))
+                {
+                    inventoryItems[inventoryItems.IndexOf(potion)].use();
+                    inventoryItems.RemoveAt(inventoryItems.IndexOf(potion));
+                }
+            }
         }
     }
 
@@ -44,7 +54,7 @@ public class Inventory : MonoBehaviour
                 index -= 10;
                 yindex++;
             }
-            Image temp = Instantiate(image, thingRenderer.position + Vector3.down * index * spacing + Vector3.right * yindex * spacing, new Quaternion(), thingRenderer).GetComponent<Image>();
+            Image temp = Instantiate(image, thingRenderer.position + Vector3.down * index * spacing * Screen.width / 1066.667f + Vector3.right * yindex * spacing * Screen.height / 600f, new Quaternion(), thingRenderer).GetComponent<Image>();
             temp.sprite = item.icon;
             gameObjects.Add(temp.gameObject);
             index++;

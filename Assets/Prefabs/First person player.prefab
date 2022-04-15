@@ -369,13 +369,18 @@ MonoBehaviour:
   inventoryItems:
   - {fileID: 11400000, guid: f15f66042b04e3945b38a91f4ca90950, type: 2}
   - {fileID: 11400000, guid: c007cb436b12cf2438225609ca77794e, type: 2}
-  spacing: 100
+  spacing: 53
   thingRenderer: {fileID: 0}
   image: {fileID: 7233879260378472752, guid: d1c0e3d2f05ede64da1e0b7955672d9d, type: 3}
   crafts:
   - {fileID: 11400000, guid: 9905992d8e857134e861970672641be2, type: 2}
+  - {fileID: 11400000, guid: 0e3cc88ff4fdc674aa1265b01de8401f, type: 2}
   - {fileID: 11400000, guid: a295b9f17db60c44fb6d7ea7f6678ebd, type: 2}
-  craftss: {fileID: 11400000, guid: 9905992d8e857134e861970672641be2, type: 2}
+  - {fileID: 11400000, guid: 67fcdd55c8401ba40a5d35dbf5993c77, type: 2}
+  - {fileID: 11400000, guid: 3b51eb9a754338e48af398e1d5a58a96, type: 2}
+  potions:
+  - {fileID: 11400000, guid: 67fcdd55c8401ba40a5d35dbf5993c77, type: 2}
+  - {fileID: 11400000, guid: 3b51eb9a754338e48af398e1d5a58a96, type: 2}
 --- !u!1 &2157697355938345171
 GameObject:
   m_ObjectHideFlags: 0

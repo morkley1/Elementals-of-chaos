@@ -15,6 +15,7 @@ public class navmeshEnemyFireCast : MonoBehaviour
     public float healthTEMP = 44f;
 
     [SerializeField] List<GameObject> drops = new List<GameObject> { };
+    [SerializeField] List<GameObject> rareDrops = new List<GameObject> { };
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +44,13 @@ public class navmeshEnemyFireCast : MonoBehaviour
             foreach (GameObject game in drops)
             {
                 Instantiate(game, transform.position + Vector3.up * 1, Quaternion.Euler(new Vector3(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360))));
+            }
+            foreach (GameObject game in rareDrops)
+            {
+                if (Random.Range(1, 10) == 1)
+                {
+                    Instantiate(game, transform.position + Vector3.up * 1, Quaternion.Euler(new Vector3(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360))));
+                }
             }
             Destroy(this.gameObject);
         }

@@ -35,7 +35,10 @@ public class InventoryItemData : ScriptableObject
 
     public void use()
     {
-        if (type == itemType.consumable) GameObject.Find("First person player").GetComponent<playerWalk>().healthTEMP += healing;
+        if (type == itemType.consumable)
+        {
+            GameObject.Find("First person player").GetComponent<playerWalk>().healthTEMP += healing;
+        }
     }
 
     public override bool Equals(object obj)

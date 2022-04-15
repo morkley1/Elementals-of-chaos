@@ -202,6 +202,10 @@ MonoBehaviour:
   - {fileID: 1653200432891409758, guid: da7b94bcb296b6e4db9aed637ce90541, type: 3}
   - {fileID: 1653200432891409758, guid: da7b94bcb296b6e4db9aed637ce90541, type: 3}
   - {fileID: 1653200432891409758, guid: da7b94bcb296b6e4db9aed637ce90541, type: 3}
+  rareDrops:
+  - {fileID: 1653200432891409758, guid: 55fae86d4fc205c49ad8cd0174045d38, type: 3}
+  - {fileID: 1653200432891409758, guid: 55fae86d4fc205c49ad8cd0174045d38, type: 3}
+  - {fileID: 1653200432891409758, guid: 55fae86d4fc205c49ad8cd0174045d38, type: 3}
 --- !u!114 &470992667369481880
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f341ab4745430c148ba639a0ef244ed4, type: 3}
+  m_Name: Water Start Sword
+  m_EditorClassIdentifier: 
+  displayName: Water Wood Sword
+  type: 0
+  icon: {fileID: 21300000, guid: 408fb4cfef85cf84e83bd655153da36f, type: 3}
+  prefab: {fileID: 1269766506154815043, guid: e039a1a03437c2843a9ee6483532a49a, type: 3}
+  DMGOverride: 88
+  RDMGOverride: 0
+  healing: 0
+  craftingRecipe:
+  - {fileID: 11400000, guid: 9905992d8e857134e861970672641be2, type: 2}
+  - {fileID: 11400000, guid: a1b3fa5ba4190cd478e74b6f721790ac, type: 2}
+  - {fileID: 11400000, guid: a1b3fa5ba4190cd478e74b6f721790ac, type: 2}
+  - {fileID: 11400000, guid: a1b3fa5ba4190cd478e74b6f721790ac, type: 2}

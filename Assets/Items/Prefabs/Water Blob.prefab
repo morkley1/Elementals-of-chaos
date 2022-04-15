@@ -16,19 +16,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3903662637774583640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1653200432891409758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9366ffac818317418e2c55375f60f6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data: {fileID: 11400000, guid: a1b3fa5ba4190cd478e74b6f721790ac, type: 2}
 --- !u!135 &-2353671982411949803
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -42,6 +29,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.39058965
   m_Center: {x: 0.04196635, y: 0.034572672, z: 0.010798707}
+--- !u!114 &3903662637774583640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653200432891409758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9366ffac818317418e2c55375f60f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: a1b3fa5ba4190cd478e74b6f721790ac, type: 2}
 --- !u!1001 &1887061952519112719
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -93,6 +93,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: eea3d2197721d794b9e912ac35167727, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b67b28441f665504aa5a3e1bb6403c25, type: 2}
     - target: {fileID: 919132149155446097, guid: eea3d2197721d794b9e912ac35167727, type: 3}
       propertyPath: m_Name
       value: Water Blob
